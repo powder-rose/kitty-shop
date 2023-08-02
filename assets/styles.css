@@ -23,6 +23,7 @@ body {
     display: flex;
     width: 100%;
     position: fixed;
+    z-index: 1;
 }
 
 
@@ -65,7 +66,6 @@ body {
 
 .main__img {
     width: 700px;
-    
     margin-left: 10rem;
 }
 
@@ -144,6 +144,10 @@ body {
     height: 56px;
 }
 
+.shop-header__added {
+    color: #2020208e;
+}
+
 .shop-price {
     font-size: 24px;
 }
@@ -166,6 +170,7 @@ body {
 .shop-btn__added {
     background-color: #FFBDD5;
     color: #fffcfd;
+
 }
 
 .footer {
@@ -264,10 +269,10 @@ flex-direction: column;
     background-color: #FFF8FA;
     align-items: center;
     flex-flow: column wrap;
-    height: 500px;
+    
 }
 
-.shopping-bag h2 {
+.shopping-list {
     color: #BE4A68;
     font-size: 25px;
     font-weight: 100;
